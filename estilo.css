@@ -1,0 +1,172 @@
+.list-nav{
+    list-style: none;    
+    display: flex;
+    gap: 12px;
+    text-align:end;
+    color: white;
+    }
+.item-nav{
+    text-decoration: none;
+    color: white;
+    }
+
+main{
+    margin: 15px;
+}
+p{
+    text-align: center;
+
+}
+/*bordes de cada sección*/
+.sega , .supernintendo , .play1 , .play2 , .xbox360 , .wii{
+    border: 8px rgb(66, 68, 66) outset;
+}
+
+
+/*imagenes de las consolas*/
+.sega1 , .nintendo1 , .playimg , .play2img , .xbox360img , .wiiimg{
+    width:200px;
+   height:200px; 
+/*imagenes de los logos*/
+}
+.segalogo , .nintendologo , .playlogo , .play2logo , .xboxlogo , .wiilogo {
+    background-position: left bottom;
+    width:200px;
+   height:200px; 
+   padding: 10px;  
+}
+/*
+.nintendologo{
+    background-position: left bottom;
+    width:300px;
+    
+   border:1px solid
+}
+*/
+.colortexto{
+    color: white;
+    background:url(../img/fondo2.jpg);
+    background-repeat: repeat;
+}
+.estilofooter{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 100px;
+    line-height: 50px;
+}
+footer{
+    color:white;
+    background-color: rgb(47, 45, 45);
+}
+/* pagina de Wii*/
+.fondowii{
+    background: rgb(169, 236, 238);
+}
+.grupo-imgwii{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+.galeria-imagenwii{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+/* Pagina de xbox360*/
+.grupo-imgxbox360{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+.galeria-imagenxbox360{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+/* Pagina Play Station 2*/
+.fondoplay2{
+    background: rgb(139, 129, 129);
+}
+.grupo-imgplay2{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+.galeria-imagenplay2{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+/* Pagina Play Station*/
+.fondoplay{
+    background: rgb(80, 83, 77);
+}
+.grupo-imgplay{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+.galeria-imagenplay{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+/* Pagina Nintendo*/
+.fondonintendo{
+    background: rgb(158, 111, 111);
+}
+.grupo-imgnintendo{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+.galeria-imagennintendo{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+/* Pagina Sega*/
+.index2{
+    background: rgb(61, 61, 133);
+}
+.grupo-imgsega{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+.galeria-imagensega , .segalogo {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    filter: brightness(70%);
+}
