@@ -45,7 +45,7 @@ p{
 */
 .colortexto{
     color: white;
-    background:url(../img/fondo2.jpg);
+    background:url(/fondo2.jpg);
     background-repeat: repeat;
 }
 .estilofooter{
