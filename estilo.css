@@ -35,17 +35,9 @@ p{
    height:200px; 
    padding: 10px;  
 }
-/*
-.nintendologo{
-    background-position: left bottom;
-    width:300px;
-    
-   border:1px solid
-}
-*/
 .colortexto{
     color: white;
-    background:url(/fondo2.jpg);
+    background:url(fondo2.jpg);
     background-repeat: repeat;
 }
 .estilofooter{
